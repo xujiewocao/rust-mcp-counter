@@ -1,0 +1,10 @@
+[package]
+name = "rust-mcp"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rmcp = { version = "*", features = ["transport-io"]}
+tokio = { version = "*", features = ["full"] }
+serde = { version = "*", features = ["derive"] }
+serde_json = { version = "*"}
